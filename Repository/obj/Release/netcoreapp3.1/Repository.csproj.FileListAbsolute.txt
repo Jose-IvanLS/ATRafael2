@@ -1,0 +1,11 @@
+C:\Users\User\source\repos\ATRafael2\Repository\bin\Release\netcoreapp3.1\Microsoft.Azure.Cosmos.ServiceInterop.dll
+C:\Users\User\source\repos\ATRafael2\Repository\bin\Release\netcoreapp3.1\Cosmos.CRTCompat.dll
+C:\Users\User\source\repos\ATRafael2\Repository\bin\Release\netcoreapp3.1\Repository.deps.json
+C:\Users\User\source\repos\ATRafael2\Repository\bin\Release\netcoreapp3.1\Repository.dll
+C:\Users\User\source\repos\ATRafael2\Repository\bin\Release\netcoreapp3.1\Repository.pdb
+C:\Users\User\source\repos\ATRafael2\Repository\obj\Release\netcoreapp3.1\Repository.csproj.AssemblyReference.cache
+C:\Users\User\source\repos\ATRafael2\Repository\obj\Release\netcoreapp3.1\Repository.AssemblyInfoInputs.cache
+C:\Users\User\source\repos\ATRafael2\Repository\obj\Release\netcoreapp3.1\Repository.AssemblyInfo.cs
+C:\Users\User\source\repos\ATRafael2\Repository\obj\Release\netcoreapp3.1\Repository.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\ATRafael2\Repository\obj\Release\netcoreapp3.1\Repository.dll
+C:\Users\User\source\repos\ATRafael2\Repository\obj\Release\netcoreapp3.1\Repository.pdb

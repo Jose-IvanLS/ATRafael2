@@ -1,0 +1,57 @@
+﻿@model ATRafaelFront2.Models.TaskModel
+
+@{
+    ViewData["Title"] = "Editar tarefa";
+}
+
+<h1>Editar tarefa</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Id" class="control-label"></label>
+                <input asp-for="Id" class="form-control" value="@Model.Id" readonly/>
+                <span asp-validation-for="Id" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TaskName" class="control-label"></label>
+                <input asp-for="TaskName" class="form-control" required/>
+                <span asp-validation-for="TaskName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="TaskTo" class="control-label"></label>
+                <input asp-for="TaskTo" class="form-control" required/>
+                <span asp-validation-for="TaskTo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Description" class="control-label"></label>
+                <input asp-for="Description" class="form-control" required/>
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Status" class="control-label">A fazer</label>
+                <input asp-for="Status" type="radio" value="A fazer" /> |
+                <label asp-for="Status" class="control-label">Fazendo</label>
+                <input asp-for="Status" type="radio" value="Fazendo" /> |
+                <label asp-for="Status" class="control-label">Feito</label>
+                <input asp-for="Status" type="radio" value="Feito" />
+                <span asp-validation-for="Status" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Salvar" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Lista de tarefas</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
